@@ -32,7 +32,7 @@ const Skills = () => {
    md:bg-circularLightMd
    sm:bg-circularLightSm
    '>
-    <motion.div className="flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark p-2
+    <motion.div className="flex items-center justify-center rounded-full font-semibold bg-dark text-light shadow-dark p-8 xs:text-xs
     " whileHover={{scale:1.05}}>
       Machine Learning
     </motion.div>
