@@ -55,7 +55,7 @@ const Experience = () => {
             company="Upwork"
             time="2023-Present"
             address="Remote"
-            work="Worked for 2 different clients...."
+            work="Worked on developing an advanced chatbot using OpenAI API, Langchain, and Streamlit to extract and interact with PDF content. The chatbot answered queries and retrieved relevant images, enhancing information retrieval and user experience. For another client, worked on managing a 4,000-student alumni dataset, linking data from Excel, Airtable, and SQL databases, and reduced the project timeline by 50% through pattern identification and utilized NER models to extract specific information, resulting in high employer satisfaction and further collaboration. "
             />
             <Details
             position="Data Analyst"
