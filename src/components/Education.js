@@ -48,18 +48,18 @@ const Education = () => {
 
         <ul className='w-full flex flex-col items-start justify-between ml-4  xs:ml-2 '>
             <Details
-            type="Bachelor of Science (Physical sciences with Computer Science)"
+            type="Master of Science in Financial Engineering"
             
-            time="2020-2023"
-            place="St. Stephen's College, University of Delhi"
-            info="Relevant courses included ...."
+            time="2024-2026"
+            place="WorldQuant University"
+            info="Mathematical + Computational Modeling, Derivative Pricing, Deep Learning, Financial Data Visualization And Analysis, Stochastic Modeling, Portfolio Management, Financial Econometrics, Machine Learning, Risk Management"
             />
             <Details
             type="Bachelor of Science (Physical sciences with Computer Science)"
             
             time="2020-2023"
             place="St. Stephen's College, University of Delhi"
-            info="Relevant courses included ...."
+            info="Data Analysis Using Python Programming, Database Management System, Statistical Software R, Data Structures, Computer Networks, Programming In Java, Problem Solving Using Computer, Operating Systems, Computer System Architecture, Web Design Using Html5 "
             />
         </ul>
 
