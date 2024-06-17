@@ -53,17 +53,25 @@ const Experience = () => {
             position="Data Analyst"
             companyLink="https://www.upwork.com/freelancers/~013e500807b48bee4a"
             company="Upwork"
-            time="2023-Present"
+            time="Feb 2024-Present"
             address="Remote"
-            work="Worked on developing an advanced chatbot using OpenAI API, Langchain, and Streamlit to extract and interact with PDF content. The chatbot answered queries and retrieved relevant images, enhancing information retrieval and user experience. For another client, worked on managing a 4,000-student alumni dataset, linking data from Excel, Airtable, and SQL databases, and reduced the project timeline by 50% through pattern identification and utilized NER models to extract specific information, resulting in high employer satisfaction and further collaboration. "
+            work="Worked on developing an advanced chatbot using OpenAI API, Langchain, and Streamlit to extract and interact with PDF content. The chatbot answered queries and retrieved relevant images, enhancing information retrieval and user experience."
             />
             <Details
             position="Data Analyst"
             companyLink="https://www.upwork.com/freelancers/~013e500807b48bee4a"
             company="Upwork"
-            time="2023-Present"
+            time="Oct 2023-Jan 2024"
             address="Remote"
-            work="Worked for 2 different clients...."
+            work="Worked on managing a 4,000-student alumni dataset, linking data from Excel, Airtable, and SQL databases, and reduced the project timeline by 50% through pattern identification and utilized NER models to extract specific information, resulting in high employer satisfaction and further collaboration. "
+            />
+            <Details
+            position="Freelance Intern"
+            companyLink="https://www.upwork.com/freelancers/~013e500807b48bee4a"
+            company="Arya Book Depot"
+            time="June 2023-August 2023"
+            address="Remote"
+            work="Conducted comprehensive reviews of computer science textbooks for grades 4-9, demonstrating meticulous attention to detail. Authored engaging questions and answers, showcasing creativity and in-depth subject knowledge. Ensured content accuracy and clarity through precise proofreading. Efficiently managed multiple tasks within tight deadlines, highlighting strong time management and commitment to quality."
             />
         </ul>
 
