@@ -13,7 +13,7 @@ const FramerImage = motion(Image);
 
 
 
-const FeaturedProject = ({type,title,summary,img,link,github}) =>{
+const FeaturedProject = ({type,title,summary,img,link}) =>{
     return(
         <article className='w-full flex items-center justify-between relative rounded-3xl border rounded-br-2xl border-solid border-dark bg-light shadow-2xl p-12 lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4'>
         <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl
@@ -40,10 +40,12 @@ const FeaturedProject = ({type,title,summary,img,link,github}) =>{
             <p className='my-2 font-medium text-dark sm:text-sm
             '>{summary}</p>
             
+            /*
             <div className='mt-2 flex items-center'>
             <Link href={github} target="_blank" className="w-10">
             <GithubIcon/>
             </Link>
+            */
 
             <Link href={link} target="_blank"
             className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base"
@@ -130,9 +132,9 @@ const projects = () => {
                     <FeaturedProject 
                     title="A Ballad of NLP" 
                     img = {project1}
-                    summary="A project that uses NLP to generate lyrics daljfdafj alf dkal aljfdskal afdklfja alsfjdsakl dklafjkla aflkjdskla adkjfkl aflkdasjfskl aflkadsj afljkl afdljfadslk adskf sdklfajkl afldksafj alfj slfjlksj slfalkjsa asflakj aflkjdsflkds dslfkjdslf kld sfldskjf dslf fjdslkf jdskfdsj fkldsj fkldsjf kdsljf dslkf dslkf dsklf dsklf jdsklf dskfjdslkfjfds fds lfkds fklds f"
-                    link="/"
-                    github="/"
+                    summary="A Ballad of NLP" leveraged the power of deep learning and natural language processing (NLP) to create an AI model capable of generating original song lyrics. The project involved meticulously curating a dataset of over 100,000 song lyrics, which was then used to train both a custom-designed long short-term memory (LSTM) model and a fine-tuned generative pre-trained transformer 2 (GPT-2) model. This process enabled the models to learn and replicate the unique stylistic nuances of various artists. The outcome was impressive: the models successfully generated lyrics that authentically captured the essence and style of specific artists. The project's success was further validated through a peer review, where colleagues and fellow students praised the remarkable similarity between the generated lyrics and the target artists' styles"
+                    link="https://github.com/joygeo007/A_Ballad_of_NLP_AI3_Project"
+                    //github="/"
                     type="Featured Project"
                     
                     
@@ -169,7 +171,7 @@ const projects = () => {
                     img = {project1}
                     summary="A project that uses NLP to generate lyrics"
                     link="/"
-                    github="/"
+                    //github="/"
                     type="Featured Project"
                     
                     
