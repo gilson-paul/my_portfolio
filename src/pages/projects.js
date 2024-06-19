@@ -177,10 +177,10 @@ const projects = () => {
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
                 <Project 
-                    title="Project 3 " 
+                    title="Moneyball a Cricket Analysis" 
                     img = {project1}
-                    link="/"
-                    github="/"
+                    link="https://github.com/joygeo007/Moneyball-a-Cricket-Analysis/blob/main/Moneyball%20A%20Cricket%20Analysis.pdf"
+                    github="https://github.com/joygeo007/Moneyball-a-Cricket-Analysis"
                     type="Project"
                     
                     
@@ -189,10 +189,10 @@ const projects = () => {
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
                 <Project 
-                    title="Project 4 " 
+                    title="Predicting Housing Rent: MachineKnight Hackathon Winning Project" 
                     img = {project1}
-                    link="/"
-                    github="/"
+                    link="https://joygeo007-machineknight-hackathon-main-2agjg1.streamlitapp.com/"
+                    github="https://github.com/joygeo007/MachineKnight_hackathon"
                     type="Project"
                     
                     
