@@ -8,6 +8,9 @@ import React from 'react'
 import project1 from "../../public/images/projects/chatpdf.png"
 import project2 from "../../public/images/projects/posterr.jpg"
 import project3 from "../../public/images/projects/santander.png"
+import project4 from "../../public/images/projects/aballad.png"
+import project5 from "../../public/images/projects/cricket.png"
+import project6 from "../../public/images/projects/machine.png"
 import {motion} from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -168,7 +171,7 @@ const projects = () => {
                 
                     <FeaturedProject 
                     title="A Ballad of NLP: Automated Lyric Generation" 
-                    img = {project1}
+                    img = {project4}
                     summary="Used deep learning and NLP to create AI models generating authentic song lyrics. Trained LSTM and fine-tuned GPT-2 on a curated dataset of 10,000 lyrics. Project success was further validated through a peer review, where colleagues and fellow students praised the remarkable similarity between the generated lyrics and the target artists' styles"
                     link="https://github.com/joygeo007/A_Ballad_of_NLP_AI3_Project"
                     type="Featured Project"
@@ -180,7 +183,7 @@ const projects = () => {
                 <div className='col-span-6 sm:col-span-12'>
                 <Project 
                     title="Moneyball a Cricket Analysis" 
-                    img = {project1}
+                    img = {project5}
                     link="https://github.com/joygeo007/Moneyball-a-Cricket-Analysis/blob/main/Moneyball%20A%20Cricket%20Analysis.pdf"
                     github="https://github.com/joygeo007/Moneyball-a-Cricket-Analysis"
                     type="Project"
@@ -191,8 +194,8 @@ const projects = () => {
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
                 <Project 
-                    title="Predicting Housing Rent: MachineKnight Hackathon Winning Project" 
-                    img = {project1}
+                    title="Predicting House Rent: MachineKnight Hackathon Winning Project" 
+                    img = {project6}
                     link="https://joygeo007-machineknight-hackathon-main-2agjg1.streamlitapp.com/"
                     github="https://github.com/joygeo007/MachineKnight_hackathon"
                     type="Project"
