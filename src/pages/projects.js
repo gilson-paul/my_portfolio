@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import project1 from "../../public/images/projects/chatpdf.png"
+import project2 from "../../public/images/projects/posterr.jpg"
 import {motion} from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -141,7 +142,7 @@ const projects = () => {
                 <div className='col-span-6 sm:col-span-12'>
                 <Project 
                     title="Satellite Image Analysis for Post-Hurricane Damage Assessment" 
-                    img = {project1}
+                    img = {project2}
                     link="https://colab.research.google.com/drive/1SiMCoVD5n9YuhmzgMx45QjSqZb9k89D5?usp=sharing"
                     github="https://github.com/joygeo007/Classifying_Buildings_Post_Hurricane_AI_2_Project"
                     type="Project"
