@@ -127,11 +127,11 @@ const projects = () => {
             xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0
             '>
                 <div className='col-span-12'>
-                    <FeaturedProject 
-                    title="A Ballad of NLP: Automated Lyric Generation" 
+                <FeaturedProject 
+                    title="ChatPDF: Interacting with Embedded Knowledge" 
                     img = {project1}
-                    summary="Used deep learning and NLP to create AI models generating authentic song lyrics. Trained LSTM and fine-tuned GPT-2 on a curated dataset of 10,000 lyrics. Project success was further validated through a peer review, where colleagues and fellow students praised the remarkable similarity between the generated lyrics and the target artists' styles"
-                    link="https://github.com/joygeo007/A_Ballad_of_NLP_AI3_Project"
+                    summary="Built an interactive chatbot using Python, Streamlit, and NLP techniques. Extracts text and images from PDFs, matches user queries, and enhances document-based knowledge retrieval."
+                    link="https://github.com/joygeo007/Chat_with_pdf_images"
                     type="Featured Project"
                     
                     
@@ -140,7 +140,7 @@ const projects = () => {
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
                 <Project 
-                    title="Satellite Imagery Analysis for Post-Hurricane Damage Assessment" 
+                    title="Satellite Image Analysis for Post-Hurricane Damage Assessment" 
                     img = {project1}
                     link="https://colab.research.google.com/drive/1SiMCoVD5n9YuhmzgMx45QjSqZb9k89D5?usp=sharing"
                     github="https://github.com/joygeo007/Classifying_Buildings_Post_Hurricane_AI_2_Project"
@@ -152,7 +152,7 @@ const projects = () => {
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
                 <Project 
-                    title="Santander Customer Satisfaction Prediction " 
+                    title="Santander Customer Satisfaction Prediction" 
                     img = {project1}
                     link="https://colab.research.google.com/drive/11djEpsvSIN_hvgh7p63hmDmCb4jeK7E7?usp=sharing"
                     github="https://github.com/joygeo007/Santander_Customer_Satisfaction_prediction-AI-1-Project-/tree/main"
@@ -163,11 +163,12 @@ const projects = () => {
                     />
                 </div>
                 <div className='col-span-12 '>
-                <FeaturedProject 
-                    title="A Ballad of NLP" 
+                
+                    <FeaturedProject 
+                    title="A Ballad of NLP: Automated Lyric Generation" 
                     img = {project1}
-                    summary="A project that uses NLP to generate lyrics"
-                    link="/"
+                    summary="Used deep learning and NLP to create AI models generating authentic song lyrics. Trained LSTM and fine-tuned GPT-2 on a curated dataset of 10,000 lyrics. Project success was further validated through a peer review, where colleagues and fellow students praised the remarkable similarity between the generated lyrics and the target artists' styles"
+                    link="https://github.com/joygeo007/A_Ballad_of_NLP_AI3_Project"
                     type="Featured Project"
                     
                     
