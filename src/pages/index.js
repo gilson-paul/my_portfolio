@@ -6,7 +6,7 @@ import profilePic from "../../public/images/profile/logo_pic.png"
 import AnimatedText from '@/components/AnimatedText'
 import { LinkArrow } from '@/components/Icons'
 import HireMe from '@/components/HireMe'
-import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
+import lightBulb from "../../public/images/svgs/bulbb.svg"
 import TransitionEffect from '@/components/TransitionEffect'
 
 export default function Home() {
