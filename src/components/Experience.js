@@ -50,7 +50,7 @@ const Experience = () => {
 
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
             <Details
-            position="Data Analyst"
+            position="NLP Engineer"
             companyLink="https://www.upwork.com/freelancers/~013e500807b48bee4a"
             company="Upwork"
             time="Feb 2024-Present"
