@@ -73,7 +73,7 @@ const about = () => {
                 <p className="font-medium">
                 When I’m not helping businesses thrive, you can find me passionately following geopolitics and football, often at the same time. If you ever need a good chat about the latest global events or who’s winning the next match, I’m your go-to person!
                 </p>
-
+                <br>
                 <p className="font-medium">
                 
                 Let’s connect and see how we can turn your business dreams into reality—preferably with a side of laughter!            
