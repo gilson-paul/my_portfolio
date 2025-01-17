@@ -62,18 +62,21 @@ const about = () => {
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
                 <h2 className="mb-4 text-lg font-bold uppercase text-dark/75"> About me</h2>
                 <p className="font-medium">
-                Hey there! I'm Joyson, an aspiring ML engineer with an insatiable curiosity to explore the frontiers of AI. With a solid foundation, I've immersed myself in this field, constantly expanding my knowledge through specialized courses and hands-on projects.
+                Hey there! I am Paul, a Project Manager who specializes in turning e-commerce chaos into streamlined success stories—kind of like a digital superhero, but without the cape (it’s hard to type with one on!). I build highly cost-effective remote teams that not only get the job done but also know how to have a good time while doing it. Think of me as the conductor of an orchestra—if the orchestra played in different time zones and communicated exclusively through Slack!
 
                 </p>
 
                 <p className="my-4 font-medium">
-                What drives me is a relentless passion for growth. I'm always seeking to master new skills and technologies, whether it's diving into CNNs or exploring the latest language models. In this ever-evolving landscape, I see endless possibilities for innovation. I'm excited to join a team who shares my passion for pushing boundaries and making an impact.
+                My secret sauce? A sprinkle of continuous improvement and a dash of client collaboration. I dive deep into understanding my clients' strategic objectives, helping them scale and stay agile in a world that moves faster than a footballer on a breakaway. Also, I recently wrapped up my MBA in International Business, which means I can now analyze business cases with the same enthusiasm I reserve for debating the latest La Liga match. Who knew case studies could be as thrilling as a last-minute goal? My experiences, combined with academic insights, have given me a unique perspective on the entrepreneurial journey—because let’s face it, every business needs a little bit of magic (and maybe a good cup of coffee).
                 </p>
                 
                 <p className="font-medium">
-                If you're looking for an ML engineer with a fresh perspective, continuous learning mindset, and commitment to excellence, I'd love to discuss how my skills and enthusiasm can contribute to your organization's success. Let's explore the limitless potential of AI together!
+                When I’m not helping businesses thrive, you can find me passionately following geopolitics and football, often at the same time. If you ever need a good chat about the latest global events or who’s winning the next match, I’m your go-to person!
                 </p>
 
+                <p className="font-medium">
+                Let’s connect and see how we can turn your business dreams into reality—preferably with a side of laughter!
+                </p>
                 
             </div>
             <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8
