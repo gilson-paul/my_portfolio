@@ -75,7 +75,8 @@ const about = () => {
                 </p>
 
                 <p className="font-medium">
-                Let’s connect and see how we can turn your business dreams into reality—preferably with a side of laughter!
+                
+                Let’s connect and see how we can turn your business dreams into reality—preferably with a side of laughter!            
                 </p>
                 
             </div>
