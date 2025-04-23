@@ -87,4 +87,5 @@ export default function Contact() {
             {result && <p className="mt-4 text-sm text-green-600">{result}</p>}
         </div>
         </>
+    )
 }
