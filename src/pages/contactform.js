@@ -27,6 +27,12 @@ export default function Contact() {
     };
 
     return (
+        <>
+        <Head>
+        <title>Gilson | Contact Me page</title>
+        <meta name="decryption" content="This is the contact of Gilson Paul George"/>
+        </Head>
+        <TransitionEffect/>
         <div className="min-h-screen flex flex-col items-center justify-center bg-light text-dark px-4 md:px-8">
             <h1 className="text-4xl font-bold mb-6">Contact Me</h1>
             <form
@@ -80,5 +86,5 @@ export default function Contact() {
             </form>
             {result && <p className="mt-4 text-sm text-green-600">{result}</p>}
         </div>
-    );
+        </>
 }
