@@ -13,7 +13,7 @@ const Footer = () => {
                 Build With <span className='text-primary text-2xl px-1'>&#9825;</span> by&nbsp;<Link href="/">Gilson</Link>
             </div>
             
-            <Link href="mailto:joysongeorge.3003@gmail.com " target={"_blank"}>Say hello</Link>
+            <Link href="mailto:gilsonpgeorge300@gmail.com " target={"_blank"}>Say hello</Link>
         </Layout>
     </footer>
 
