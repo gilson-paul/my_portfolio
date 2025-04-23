@@ -42,7 +42,7 @@ export default function Home() {
               >Resume<LinkArrow className={"w-6 ml-1"}/>
               
               </Link>
-              <Link href="mailto:joysongeorge.3003@gmail.com " target={"_blank"}
+              <Link href="/contact"
               className='ml-4 text-lg font-medium capitalize text-dark underline md:text-base
               '
               >Contact</Link>
@@ -54,7 +54,7 @@ export default function Home() {
         </Layout>
         <HireMe/>
         <div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>
-          <Image src={lightBulb} alt="Joy" className="w-full h-auto"/>
+          <Image src={lightBulb} alt="Gil" className="w-full h-auto"/>
         </div>
       </main>
     </>

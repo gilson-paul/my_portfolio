@@ -14,7 +14,7 @@ const Logo = () => {
             transition: {duration: 1, repeat: Infinity}
         }}
         
-        >JG</MotionLink>
+        >GPG</MotionLink>
         </div>
   )
 }

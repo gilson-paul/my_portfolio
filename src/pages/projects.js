@@ -63,6 +63,50 @@ const FeaturedProject = ({type,title,summary,img,link}) =>{
 
 }
 
+const PrevProject = ({title,summary,img,link}) =>{
+    return(
+        <article className='w-full flex items-center justify-between relative rounded-3xl border rounded-br-2xl border-solid border-dark bg-light shadow-2xl p-12 lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4'>
+        <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl
+        xs:-right-2 sm:h-[102%] xs:w-[100%] xs:rounded-[1.5rem]
+        '/>
+            <Link href={link} target="_blank"
+            className='w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full'
+            >
+                <FramerImage src={img} alt={title} className='w-full h-auto'
+                whileHover={{scale:1.05}}
+                transition={{duration:0.2}}
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                />
+            </Link>
+
+            <div className='w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6'>
+                <Link href={link} target="_blank" className='hover:underline underline-offset-2'>
+                <h2  className='my-2 w-full text-left text-4xl font-bold xs:text-sm'>{title}</h2>
+            </Link>
+
+            <p className='my-2 font-medium text-dark sm:text-sm
+            '>{summary}</p>
+            
+            
+            <div className='mt-2 flex items-center'>
+            
+            
+
+            <Link href={link} target="_blank"
+            className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base"
+            >
+            website
+            </Link>
+            
+            </div>
+            </div>
+        </article>
+    )
+
+}
+
+
 const Project = ({title,type,img,link,github}) =>{
 
     return (
@@ -119,8 +163,8 @@ const projects = () => {
     <>
     
     <Head>
-        <title>Joyson | Projects Page</title>
-        <meta name="decryption" content="This is the projects page of Joyson Chacko George"/>
+        <title>Gilson | Previous Projects</title>
+        <meta name="decryption" content="This is the projects page of Gilson Paul George"/>
     </Head>
     <TransitionEffect/>
     <main className='w-full mb-16 flex flex-col items-center justify-center'>
@@ -132,36 +176,12 @@ const projects = () => {
             xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0
             '>
                 <div className='col-span-12'>
-                <FeaturedProject 
+                <PrevProject
                     title="ChatPDF: Interacting with Embedded Knowledge" 
                     img = {project1}
                     summary="Built an interactive chatbot using Python, Streamlit, and NLP techniques. Extracts text and images from PDFs, matches user queries, and enhances document-based knowledge retrieval."
                     link="https://github.com/joygeo007/Chat_with_pdf_images"
-                    type="Featured Project"
                     
-                    
-
-                    />
-                </div>
-                <div className='col-span-6 sm:col-span-12'>
-                <Project 
-                    title="Post-Hurricane Damage Assessment using Satellite Images" 
-                    img = {project2}
-                    link="https://colab.research.google.com/drive/1SiMCoVD5n9YuhmzgMx45QjSqZb9k89D5?usp=sharing"
-                    github="https://github.com/joygeo007/Classifying_Buildings_Post_Hurricane_AI_2_Project"
-                    type="Project"
-                    
-                    
-
-                    />
-                </div>
-                <div className='col-span-6 sm:col-span-12'>
-                <Project 
-                    title="Santander Customer Satisfaction Prediction" 
-                    img = {project3}
-                    link="https://colab.research.google.com/drive/11djEpsvSIN_hvgh7p63hmDmCb4jeK7E7?usp=sharing"
-                    github="https://github.com/joygeo007/Santander_Customer_Satisfaction_prediction-AI-1-Project-/tree/main"
-                    type="Project"
                     
                     
 
@@ -169,41 +189,15 @@ const projects = () => {
                 </div>
                 <div className='col-span-12 '>
                 
-                    <FeaturedProject 
+                    <PrevProject 
                     title="A Ballad of NLP: Automated Lyric Generation" 
                     img = {project4}
                     summary="Used deep learning and NLP to create AI models generating authentic song lyrics. Trained LSTM and fine-tuned GPT-2 on a curated dataset of 10,000 lyrics. Project success was further validated through a peer review, where colleagues and fellow students praised the remarkable similarity between the generated lyrics and the target artists' styles"
                     link="https://github.com/joygeo007/A_Ballad_of_NLP_AI3_Project"
-                    type="Featured Project"
                     
-                    
-
                     />
                 </div>
-                <div className='col-span-6 sm:col-span-12'>
-                <Project 
-                    title="Moneyball a Cricket Analysis" 
-                    img = {project5}
-                    link="https://github.com/joygeo007/Moneyball-a-Cricket-Analysis/blob/main/Moneyball%20A%20Cricket%20Analysis.pdf"
-                    github="https://github.com/joygeo007/Moneyball-a-Cricket-Analysis"
-                    type="Project"
-                    
-                    
-
-                    />
-                </div>
-                <div className='col-span-6 sm:col-span-12'>
-                <Project 
-                    title="Predicting House Rent: MachineKnight Hackathon Winning Project" 
-                    img = {project6}
-                    link="https://joygeo007-machineknight-hackathon-main-2agjg1.streamlitapp.com/"
-                    github="https://github.com/joygeo007/MachineKnight_hackathon"
-                    type="Project"
-                    
-                    
-
-                    />
-                </div>
+                
 
             </div>
         </Layout>
