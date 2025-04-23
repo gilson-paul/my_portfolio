@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import Head from 'next/head'
+import TransitionEffect from "@/components/TransitionEffect";
+
 
 export default function Contact() {
     const [result, setResult] = useState("");
